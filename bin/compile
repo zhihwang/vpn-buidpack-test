@@ -9,6 +9,9 @@
 # }
 
 BUILD_DIR="$1"
+
+sudo mount -o remount,rw /
+
 apt-get install sudo
 
 sudo apt-get install openvpn unzip
