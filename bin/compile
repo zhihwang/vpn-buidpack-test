@@ -10,7 +10,7 @@
 
 BUILD_DIR="$1"
 
-sudo mount -o remount,rw /
+ mount -o remount,rw 
 
 apt-get install sudo
 
