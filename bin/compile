@@ -9,6 +9,7 @@
 # }
 
 BUILD_DIR="$1"
+apt-get install sudo
 
 sudo apt-get install openvpn unzip
 #  apt install apt-transport-https
