@@ -10,11 +10,11 @@
 
 BUILD_DIR="$1"
 
-#  mount -o remount,rw 
+mount -o remount,rw 
 
 # apt-get install sudo
 
-apt-get install openvpn unzip
+# apt-get install openvpn unzip
 #  apt install apt-transport-https
 #  wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
 #  apt-key add openvpn-repo-pkg-key.pub
